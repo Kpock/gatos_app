@@ -9,13 +9,13 @@ package com.brandon.gatos_app;
  *
  * @author WPOSS
  */
-public class Gatos {
-    String id;
-    String url;
-    String apikey = "630640b1-7703-47e9-a518-6ee78442d1b7";
-    String image;
-
+public class GatosFav {
     
+    String id;
+    String imageId;
+    String apikey = "630640b1-7703-47e9-a518-6ee78442d1b7";
+    Imagex image;
+
     public String getId() {
         return id;
     }
@@ -24,12 +24,12 @@ public class Gatos {
         this.id = id;
     }
 
-    public String getUrl() {
-        return url;
+    public String getImageId() {
+        return imageId;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setImageId(String imageId) {
+        this.imageId = imageId;
     }
 
     public String getApikey() {
@@ -40,16 +40,17 @@ public class Gatos {
         this.apikey = apikey;
     }
 
-    public String getImage() {
+    public Imagex getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(Imagex image) {
         this.image = image;
     }
-    
-    
-    
+
+    String getId() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     

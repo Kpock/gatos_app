@@ -9,13 +9,11 @@ package com.brandon.gatos_app;
  *
  * @author WPOSS
  */
-public class Gatos {
+public class Imagex {
+    
     String id;
     String url;
-    String apikey = "630640b1-7703-47e9-a518-6ee78442d1b7";
-    String image;
 
-    
     public String getId() {
         return id;
     }
@@ -31,24 +29,6 @@ public class Gatos {
     public void setUrl(String url) {
         this.url = url;
     }
-
-    public String getApikey() {
-        return apikey;
-    }
-
-    public void setApikey(String apikey) {
-        this.apikey = apikey;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-    
-    
     
     
     
